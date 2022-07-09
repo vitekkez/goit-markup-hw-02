@@ -1,0 +1,51 @@
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+/* logo */
+.logo {
+  color: #ffffff;
+}
+.logo-ingredient {
+  color: #2196f3;
+}
+/* list */
+
+.list {
+  list-style: none;
+}
+
+/* site nav */
+.site-nav a {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* contact-up */
+.contact-up a {
+  color: #757575;
+}
+
+.contact-up .link:hover,
+.contact-up .link:focus {
+  color: #2196f3;
+}
+
+/* hero */
+
+/* section */
+.section-title {
+  color: #212121;
+}
+
+/* цвет текста доминантный #757575 */
+/* вторичный цвет текста #212121 */
+/* цвет лого #2196F3 и #000000 */
+/* акцент #2196F3 */
+/* цвет footer FFFFFF */
+/* основной цвет фона #FFFFFF */
+/* вторичный цвет фона  #F5F4FA */
