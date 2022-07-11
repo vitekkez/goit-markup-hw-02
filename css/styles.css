@@ -1,35 +1,40 @@
-/* цвет текста доминантный #757575 */
-/* вторичный цвет текста #212121 */
-/* акцент #2196F3 */
-/* белый #FFFFFF */
-/* footer и header фон #2F303A */
-/* backgraund #E5E5E5 */
-/* вторичный цвет фона #F5F4FA */
-
 :root {
   --primary-text-color: #757575;
   --secondery-text-color: #212121;
+  --third-text-color: rgba(255, 255, 255, 0.6);
+  --logo-color: #000000;
   --accent-color: #2196f3;
+  --accent-hover-color: #188ce8;
+  --accent-button-color: #f5f4fa;
   --primary-white-color: #ffffff;
+  --primary-background-color: #2f303a;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 
 /* logo */
-.logo {
-  color: var(--primary-white-color);
+.logo-up {
+  color: var(--logo-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .logo-ingredient {
   color: var(--accent-color);
 }
 /* list */
-
-.list {
-  list-style: none;
-}
 
 /* site nav */
 .site-nav a {
@@ -54,7 +59,34 @@ body {
 }
 
 /* hero */
+.hero {
+  background-color: var(--primary-background-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+/* button */
+.hero-button {
+  cursor: pointer;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--accent-hover-color);
+}
 
+.basic-button {
+  font-family: inherit;
+  cursor: pointer;
+  color: var(--secondery-text-color);
+  background-color: var(--accent-button-color);
+}
+.basic-button:hover,
+.basic-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-hover-color);
+}
 /* section */
 
 /* features */
@@ -72,8 +104,16 @@ body {
   color: var(--secondery-text-color);
 }
 
-/* button */
-.button {
+/* footer */
+
+.aside {
+  background-color: var(--primary-background-color);
   color: var(--primary-white-color);
-  background-color: var(--accent-color);
+}
+.logo-down {
+  color: var(--primary-white-color);
+  font-family: 'Raleway', sans-serif;
+}
+.contact-down a {
+  color: var(--third-text-color);
 }
