@@ -113,6 +113,13 @@ body {
   background-color: var(--accent-hover-color);
 }
 /* section */
+.section-title {
+  color: var(--secondery-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
 
 /* features */
 
@@ -126,14 +133,6 @@ body {
 .feature-list {
   font-size: 14px;
   line-height: 1.7;
-}
-/* work */
-.section-title {
-  color: var(--secondery-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
 }
 
 /* team */
