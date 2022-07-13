@@ -22,6 +22,10 @@ body {
 .link {
   text-decoration: none;
 }
+.gallery .link {
+  text-decoration: none;
+  list-style: none;
+}
 
 /* logo */
 .logo-up {
@@ -160,7 +164,7 @@ body {
 
 .aside-contact {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   font-style: normal;
 }
 .contact-down .link {
@@ -171,12 +175,17 @@ body {
   color: var(--accent-color);
 }
 
-.gallery .title {
+.gallery .header {
   font-size: 18px;
-  line-height: 36p2;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondery-text-color);
 }
+.gallery .par {
+  line-height: 1.88;
+  color: var(--primary-text-color);
+}
+
 .basic-gallery {
   line-height: 1.88;
 }
