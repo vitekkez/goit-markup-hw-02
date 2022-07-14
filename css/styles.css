@@ -192,17 +192,14 @@ body {
   color: var(--accent-color);
 }
 
+/* gallery */
 .gallery .header {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--secondery-text-color);
 }
-.gallery .par {
+.foto {
   line-height: 1.88;
   color: var(--primary-text-color);
-}
-
-.basic-gallery {
-  line-height: 1.88;
 }
